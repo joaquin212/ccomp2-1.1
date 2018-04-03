@@ -59,9 +59,9 @@ int main()
 
 	//ejercicio4
 	int f, e;
-	cout << "ingerese un numero para f : ";
+	cout << "ingrese un numero para f : ";
 	cin >> f;
-	cout << "ingerese un numero para e : ";
+	cout << "ingrese un numero para e : ";
 	cin >> e;
 	if (f % 2 == 0){
 		cout << " f es numero multiplo de 2 " << endl;
