@@ -22,9 +22,10 @@ int main()
 	for (int c = 0; c < y; c = c + 1){
 		cout << c << ", ";
 	}
+	cout << y << endl;
 
 
-
+	//ejercicio 3 
 	int a, b, c, promedio = 0;
 	cout << "el valor de a : ";
 	cin >> a;
@@ -71,6 +72,9 @@ int main()
 	}
 	if (f%e == 0){
 		cout << f << " es multiplo de " << e << endl;
+	}
+	if (f*f == e){
+		cout << f << " es el cuadrado de" << e << endl;
 	}
 
 
