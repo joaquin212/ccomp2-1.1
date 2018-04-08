@@ -48,12 +48,7 @@ int main()
 	}else{
 		cout << "c es el menor" << endl;
 	}
-	if (c > a && c > b){
-		cout << "c es el mayor" << endl;
-	}else{
-		cout << "c es el menor" << endl;
-	}
-
+	
 	promedio = (promedio + a + b + c) / 3;
 	cout << "promedio : " << promedio << endl;
 
